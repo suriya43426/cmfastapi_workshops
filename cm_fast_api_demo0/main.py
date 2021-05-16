@@ -4,6 +4,7 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
+print("erwerwer")
 @app.get("/")
 def read_root():
     return {"Hello": "World", "MyName": "Lek CodeMobiles"}
