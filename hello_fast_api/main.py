@@ -11,7 +11,7 @@ class User(BaseModel):
 
 @app.get("/")
 def read_root():
-    return {"Hello": "World"}
+    return {"Hello": "Suriya"}
 
 # http://127.0.0.1:3000/hi?name=lek&reply=1234
 @app.get("/hi")
